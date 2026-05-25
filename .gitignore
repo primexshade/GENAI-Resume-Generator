@@ -1,2 +1,13 @@
+# Environment Variables
 .env
+*.env
+
+# Dependencies
 node_modules/
+
+# Build Files
+dist/
+.vite/
+
+# OS Files
+.DS_Store
