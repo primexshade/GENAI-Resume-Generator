@@ -6,7 +6,7 @@ axios.create({
     withCredentials: True // as it reacts with the cookie so we use withCredentials: true
 })
 
-export async function reguster( {username, email, password}) {
+export async function register( {username, email, password}) {
 
     try{
         const response = api.post('/api/auth/register',{
